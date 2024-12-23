@@ -1,7 +1,15 @@
+import React from "react";
+import { Button } from "@mui/material";
+import {useAuthState} from "react-firebase-hooks/auth"
+import {useCollection} from "react-firebase-hooks/firestore"
 
 
 export default function Home() {
+  
+  c
+  
   return (
-    <h1 className="text-blue-600">hello</h1>
+    <Button>KLK</Button>
   );
 }
+
